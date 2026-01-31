@@ -6,25 +6,20 @@
 
 ## 🇺🇸 English
 
-This repository is part of the **Continuous Integration (CI)** track from **@FullCycle** and demonstrates **how to implement code quality analysis with SonarQube in a JavaScript application** using a local [Docker](https://docs.sonarsource.com/sonarqube-server/10.6/try-out-sonarqube) setup.
+This repository is part of the **Continuous Integration (CI)** track from **@FullCycle** and demonstrates **how to implement code quality analysis with SonarQube Cloud in a JavaScript application** using [SonarCloud](https://sonarcloud.io/) integrated with GitHub Actions.
 
 ---
 
 ### 🎯 Repository Purpose
 
-**code quality analysis with SonarQube**, covering practical scenarios such as:
+**code quality analysis with SonarQube Cloud**, covering practical scenarios such as:
 
-- Local SonarQube setup using Docker
+- SonarQube Cloud setup and configuration
 - Integration with JavaScript/Node.js applications
+- GitHub Actions CI/CD pipeline
 - Code coverage analysis and reporting
 - Quality gates and metrics
-- SonarQube configuration best practices
-
----
-
-### 📋 Overview
-
-![Overview](./src/assets/allprojects.png)
+- SonarCloud best practices
 
 ---
 
@@ -56,25 +51,20 @@ This repository is part of the **Continuous Integration (CI)** track from **@Ful
 
 ## 🇧🇷 Português (PT-BR)
 
-Este repositório faz parte da trilha **Continuous Integration (CI)** do **@FullCycle** e demonstra **como implementar análise de qualidade de código com SonarQube em uma aplicação JavaScript** utilizando um setup local com [Docker](https://docs.sonarsource.com/sonarqube-server/10.6/try-out-sonarqube).
+Este repositório faz parte da trilha **Continuous Integration (CI)** do **@FullCycle** e demonstra **como implementar análise de qualidade de código com SonarQube Cloud em uma aplicação JavaScript** utilizando [SonarCloud](https://sonarcloud.io/) integrado com GitHub Actions.
 
 ---
 
 ### 🎯 Objetivo do Repositório
 
-**análise de qualidade de código com SonarQube**, abordando cenários práticos como:
+**análise de qualidade de código com SonarQube Cloud**, abordando cenários práticos como:
 
-- Setup local do SonarQube usando Docker
+- Setup do SonarCloud e configuração
 - Integração com aplicações JavaScript/Node.js
+- Pipeline CI/CD com GitHub Actions
 - Análise e relatório de cobertura de testes
 - Quality gates e métricas
-- Boas práticas de configuração do SonarQube
-
----
-
-### 📋 Visão Geral
-
-![Overview](./src/assets/allprojects.png)
+- Boas práticas do SonarCloud
 
 ---
 
@@ -86,14 +76,15 @@ Este repositório faz parte da trilha **Continuous Integration (CI)** do **@Full
   - Índice de manutenibilidade
   - Detecção de débito técnico
 
-- **Instalação Local**
-  - Setup do SonarQube com Docker
-  - Configuração de projetos
+- **SonarCloud na Nuvem**
+  - Configuração do SonarCloud
+  - Integração com GitHub Actions
   - Gestão de tokens e segurança
+  - Pipeline CI/CD automatizado
 
 - **Cobertura de Código**
   - Relatório de cobertura de testes JavaScript
-  - Integração com SonarQube
+  - Integração com SonarCloud
   - Visualização e tendências de cobertura
 
 ---
