@@ -1,0 +1,18 @@
+{
+  "name": "fullcycle.ci.jssonarqube",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar": "sonar-scanner"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "sonarqube-scanner": "^4.3.4"
+  }
+}
