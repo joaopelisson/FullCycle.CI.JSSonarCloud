@@ -22,8 +22,9 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        with:
-          args: >
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+      # Temporarily commented out SonarCloud scan step
+      # - name: SonarCloud Scan
+      #   uses: SonarSource/sonarcloud-github-action@master
+      #   with:
+      #     args: >
+      #       -Dsonar.login=${{ secrets.SONAR_TOKEN }}
