@@ -22,9 +22,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # Temporarily commented out SonarCloud scan step
-      # - name: SonarCloud Scan
-      #   uses: SonarSource/sonarcloud-github-action@master
-      #   with:
-      #     args: >
-      #       -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v6
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
