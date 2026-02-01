@@ -1,4 +1,4 @@
-# <img src="https://avatars.githubusercontent.com/u/10950003?s=200&v=4" alt="Full Cycle" width="25" /> FullCycle.CI.JSSonarQube
+# <img src="https://avatars.githubusercontent.com/u/10950003?s=200&v=4" alt="Full Cycle" width="25" /> FullCycle.CI.JSSonarCloud
 
 > 🇺🇸 **English** | 🇧🇷 **Português**
 
