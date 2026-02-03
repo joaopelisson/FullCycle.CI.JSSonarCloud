@@ -1,4 +1,4 @@
-const { sum, multiply, subtract } = require('./main');
+const { sum, multiply, subtract, divide } = require('./main');
 
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
@@ -12,3 +12,10 @@ test('multiplies 4 * 3 to equal 12', () => {
     expect(multiply(4, 3)).toBe(12);
 });
 
+test('divides 10 / 2 to equal 5', () => {
+    expect(divide(10, 2)).toBe(5);
+});
+
+test('divides by zero to throw error', () => {
+    expect(() => divide(10, 0)).toThrow("Division by zero is not allowed.");
+});
